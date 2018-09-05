@@ -31,7 +31,7 @@ body {
 }
 
 .landing-inner {
-  padding-top: 8em;
+  padding-top: 12em;
   background: rgba(0, 0, 0, 0.3);
   height: 92%;
 }
@@ -103,7 +103,7 @@ p.launch  {
   opacity: 0.5;
   height: 35px;
   padding: 15px;
-  border: 1px solid white;
+  border: 2px ridge white;
 }
 
 .title h3 {
