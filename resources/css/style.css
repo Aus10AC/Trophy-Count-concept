@@ -1,5 +1,5 @@
-body {
-
+body#home {
+  margin: 0;
 }
 
 figure {
@@ -19,24 +19,23 @@ body {
   overflow: hidden;
 }
 
+.landing {
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .landing-inner {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   text-align: center;
-  padding-top: 17em;
+  padding-top: 8em;
 }
 
-.landing {
-  position: relative;
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
 
 .landing h1 {
   font-size: 30px;
@@ -87,70 +86,40 @@ p.launch  {
   font-size: 25px;
 }
 
-@media (max-width: 650px) {
-  .landing img {
-    width: 70%;
-  }
-
-  .landing h1 {
-    font-size: 40px;
-  }
-
-  .countdown {
-    font-size: 30px;
-    flex-direction: column;
-  }
-
-  .countdown div {
-    display: none;
-  }
-
-  .countdown div:first-child {
-    display: block;
-    width: 80%;
-    padding: 10px;
-  }
-}
-
-
-@media (max-height: 600px) {
-  img {
-    width: 20%;
-  }
-
-  p {
-    display: none;
-  }
-}
-
-@media (max-height: 400px) {
-   img {
-    padding-bottom: 30px;
-  }
-
-  h1 {
-    display: none;
-  }
-}
-
 .social-plug {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 2.5em;
+  background-color: black;
+  opacity: .6;
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.18), 0 6px 20px 5px rgba(0, 0, 0, 0.70);
 }
 
 .social {
   display: flex;
-  align-items: center;
 }
 
 #staticEmail2 {
   color: black;
-  opacity: 0.9;
+  opacity: 0.7;
   height: 31px;
+  padding: 15px;
+  border: 1px solid white;
 }
 
-.sr-only {
+.title h3 {
+  margin-bottom: .9em;
+}
 
+article {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: scroll;
+}
+
+article {
+  color: white;
 }
