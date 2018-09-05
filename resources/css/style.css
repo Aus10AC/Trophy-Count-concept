@@ -92,8 +92,8 @@ p.launch  {
   align-items: center;
   font-size: 2.5em;
   background-color: black;
-  opacity: .6;
-  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.18), 0 6px 20px 5px rgba(0, 0, 0, 0.70);
+  opacity: .5;
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.05), 0 6px 20px 5px rgba(0, 0, 0, 0.55);
 }
 
 .social {
