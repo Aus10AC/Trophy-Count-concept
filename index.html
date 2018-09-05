@@ -7,45 +7,88 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- stylesheets -->
+    <!-- stylesheets/bootstrap -->
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Unlock" rel="stylesheet">
-    <!-- bootstrap/fontawesome -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>What's your count?</title>
+
   </head>
 
   <body>
-    <p>asdf</p>
 
+    <style>
+
+      .fa {
+        padding: .5em;
+        font-size: 25px;
+        width: 70%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 70%;
+        margin: .5em;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+    </style>
 
     <section class="landing">
-      <div class="landing-inner">
-        <h3>Trophy Count</h3>
-        <p>
 
-        </p>
+      <div class="social-plug">
+        <h3>Trophy Count</h3>
+        <div class="social">
+          <a href="#" class="fa fa-snapchat-ghost"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+
+      <div class="landing-inner">
+        <p></p>
         <h1>Coming Soon</h1>
+
+        <!-- Js countdown -->
         <div class="countdown"></div>
-        <p class="launch">Let me know when you launch | Connect with us <a href="https://twitter.com/TrophyCount" class="fa fa-twitter"></a></P>
+        <!-- email plug -->
+        <p class="launch">Let me know when you launch</P>
         <form class="form-inline">
           <div class="form-group mb-2">
             <label for="staticEmail2" class="sr-only">Email</label>
             <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Enter your email...">
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <button type="submit" class="btn btn-info mb-2">Submit</button>
           </div>
         </form>
       </div>
     </section>
 
-    <div class="connect">
-      <span>Connect with us!</span><a href="#" class="fa fa-twitter"></a>
-    </div>
-
+    <!-- test -->
     <figure>
       <h1>Trophy Count</h1>
       <p>
@@ -54,11 +97,7 @@
       </p>
     </figure>
 
-
-
-
-    <footer>
-    </footer>
+    <!-- Javascript -->
     <script src="resources/js/main.js"></script>
   </body>
 </html>
