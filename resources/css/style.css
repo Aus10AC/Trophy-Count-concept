@@ -1,9 +1,9 @@
 body#home {
-  margin: 0;
+  margin: 0 auto;
 }
 
 figure {
-  display: none;
+
 }
 
 * {
@@ -12,11 +12,11 @@ figure {
 
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #fff;
   background: #333;
-  overflow: hidden;
+
 }
 
 .landing {
@@ -25,20 +25,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+
+  width: 100%;
+  text-align: center;
 }
 
 .landing-inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3);
-  text-align: center;
   padding-top: 8em;
+  background: rgba(0, 0, 0, 0.3);
+  height: 87.3%;
 }
 
 
 .landing h1 {
-  font-size: 30px;
+  font-size: 50px;
   margin: .5em;
   font-family: 'Cinzel', serif;
 }
@@ -57,7 +57,7 @@ body {
 
 p.launch  {
   font-family: 'Cinzel', serif;
-  padding: 1em;
+  padding: .5em;
 }
 
 .countdown {
@@ -91,9 +91,8 @@ p.launch  {
   justify-content: space-around;
   align-items: center;
   font-size: 2.5em;
-  background-color: black;
-  opacity: .5;
-  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.05), 0 6px 20px 5px rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.20), 0 6px 20px 5px rgba(0, 0, 0, 0.39);
 }
 
 .social {
@@ -113,13 +112,15 @@ p.launch  {
 }
 
 article {
+  background-color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  overflow: scroll;
+  width: 100%;
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 1), 0 6px 20px 5px rgba(0, 0, 0, 2);
 }
 
-article {
-  color: white;
+article p {
+  color: black;
 }
