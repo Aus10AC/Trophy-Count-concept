@@ -47,3 +47,17 @@ $('.landing').particles({
   minDist: 140,
   connectParticles: false
 });
+
+// Button animation
+
+var button = document.getElementById("button");
+var d3 = document.getElementById("d3");
+function showMore() {
+    button.style.display="none";
+    d3.style.display="block";
+}
+
+function showLess() {
+    button.style.display="inline-block";
+    d3.style.display="none";
+}
