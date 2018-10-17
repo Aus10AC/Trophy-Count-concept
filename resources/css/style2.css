@@ -1,0 +1,65 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+// containers //
+
+.container {
+background: rgba(0, 0, 0, 0.3);
+}
+
+.background {
+}
+
+// navigation styles //
+
+.fa {
+  padding: .5em;
+  font-size: 25px;
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+  margin: .5em;
+}
+
+.fa:hover {
+  color: black;
+  transition-timing-function: 2s linear;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  text-decoration: none;
+  color: white;
+}
+
+.fa-youtube {
+  text-decoration: none;
+  color: white;
+}
+
+.social-plug {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  background-color: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.20), 0 6px 20px 5px rgba(0, 0, 0, 0.39);
+  padding: .8em;
+}
+//
