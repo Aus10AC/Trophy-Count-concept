@@ -207,10 +207,8 @@ article p {
     }
 }
 
-// sidebar //
+// section2 //
 
-.sidebar a{
-  position: absolute;
-  top: 5em;
-  display: none;
+.section2 span{
+
 }
